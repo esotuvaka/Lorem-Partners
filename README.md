@@ -8,6 +8,9 @@ My first fully fleshed out website, this enhanced my interest in coding and intr
 
 ## CHALLENGES + SOLUTIONS:
 
+CURRENTLY index.html in the root will reroute to esotuvaka.github.io/index.html (portfolio page), rather than to esotuvaka.github.io/Lorem-Partners/index.html !!!
+MUST FIX ASAP
+
 Learning Tailwind
 
 * I had to develop a good understanding of CSS3 before making the shift to Tailwind, but I'm glad I did. Tailwind allowed me to speed up my development significantly by styling inline inside HTML classes. Although it made the classes rough to look at, the massive improvement in development speed gained by inline-styling AND the shorthand CSS naming conventions made it worth using. 
