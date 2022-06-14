@@ -584,10 +584,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 0.5rem;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -610,6 +606,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-14 {
   margin-bottom: 3.5rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
 }
 
 .block {
@@ -704,12 +704,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 150px;
 }
 
-.basis-1\/3 {
-  flex-basis: 33.333333%;
-}
-
 .basis-1\/4 {
   flex-basis: 25%;
+}
+
+.basis-1\/3 {
+  flex-basis: 33.333333%;
 }
 
 @-webkit-keyframes bounce {
@@ -915,16 +915,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 2rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
-}
-
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -993,14 +983,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-7xl {
   font-size: 4.5rem;
   line-height: 1;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-xl {
@@ -1036,11 +1026,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-wood-brown {
   --tw-text-opacity: 1;
   color: rgb(48 39 36 / var(--tw-text-opacity));
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .antialiased {
@@ -1324,12 +1309,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 3rem;
   }
 
-  .md\:mb-40 {
-    margin-bottom: 10rem;
-  }
-
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:mb-40 {
+    margin-bottom: 10rem;
   }
 
   .md\:flex {
@@ -1364,12 +1349,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 83.333333%;
   }
 
-  .md\:w-4\/5 {
-    width: 80%;
-  }
-
   .md\:w-1\/4 {
     width: 25%;
+  }
+
+  .md\:w-4\/5 {
+    width: 80%;
   }
 
   .md\:w-\[250px\] {
@@ -1416,16 +1401,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-top: 1rem;
   }
 
-  .md\:pr-16 {
-    padding-right: 4rem;
-  }
-
   .md\:pl-0 {
     padding-left: 0px;
-  }
-
-  .md\:text-right {
-    text-align: right;
   }
 
   .md\:text-3xl {
