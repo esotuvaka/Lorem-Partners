@@ -34,12 +34,12 @@
 	<!--Testing Git push feature-->
 
 	<body class="absolute mx-auto w-screen overflow-x-hidden bg-gray-50">
-		<header>
+		<header class="fixed top-0">
 			<!--Navbar-->
 			<nav
 				data-aos="fade-down"
 				data-aos-duration="1000"
-				class="container relative mx-auto p-6"
+				class="container mx-auto p-6  "
 			>
 				<!--Flex Container-->
 				<div class="flex items-center justify-center md:justify-between">
@@ -51,10 +51,10 @@
 					>
 					<!--Menu Items-->
 					<ul class="hidden items-center align-middle md:flex">
-						<li><a href="properties.html" class="navBtn">PROPERTIES</a></li>
-						<li><a href="sold.html" class="navBtn">SOLD</a></li>
-						<li><a href="about.html" class="navBtn">ABOUT</a></li>
-						<li><a href="contact.html" class="navBtn">CONTACT</a></li>
+						<li><a href="./src/properties.html" class="navBtn">PROPERTIES</a></li>
+						<li><a href="./src/sold.html" class="navBtn">SOLD</a></li>
+						<li><a href="./src/about.html" class="navBtn">ABOUT</a></li>
+						<li><a href="./src/contact.html" class="navBtn">CONTACT</a></li>
 					</ul>
 					<!--Brokerage -->
 					<a href="#" class="hidden md:flex">Brokerage</a>
@@ -89,10 +89,10 @@
 						id="menu"
 						class="absolute z-10 mx-auto mt-5 hidden w-4/5 flex-col items-center space-y-6 self-end bg-white py-8 pt-10 font-bold drop-shadow-md sm:w-auto sm:self-center"
 					>
-						<a href="properties.html" class="navBtn">PROPERTIES</a>
-						<a href="sold.html" class="navBtn">SOLD</a>
-						<a href="about.html" class="navBtn">ABOUT</a>
-						<a href="contact.html" class="navBtn">CONTACT</a>
+						<a href="./src/properties.html" class="navBtn">PROPERTIES</a>
+						<a href="./src/sold.html" class="navBtn">SOLD</a>
+						<a href="./src/about.html" class="navBtn">ABOUT</a>
+						<a href="./src/contact.html" class="navBtn">CONTACT</a>
 					</div>
 				</div>
 			</nav>
@@ -125,7 +125,7 @@
 						</h2>
 
 						<a
-							href="contact.html"
+							href="./src/contact.html"
 							data-aos=""
 							data-aos-duration="1000"
 							data-aos-delay=""
@@ -190,7 +190,7 @@
 						<br />
 					</p>
 					<a
-						href="about.html"
+						href="./src/about.html"
 						class="mx-auto bg-coffee-brown px-8 py-2 text-2xl text-white shadow-xl transition-all duration-700 hover:bg-wood-brown hover:text-white"
 						>ABOUT US
 					</a>
@@ -222,7 +222,7 @@
 							data-aos-duration="1000"
 							data-aos-delay="1000"
 							class="card h-1/2 basis-1/4 md:h-full"
-							style="background-image: url('./images/carousel1.jpg')"
+							style="background-image: url('./src/images/carousel1.jpg')"
 						>
 							<a href="#" class="cardInnerDesktop">
 								<h1 class="text-center text-3xl">123 Imagine Dr.</h1>
@@ -237,7 +237,7 @@
 							data-aos-duration="1500"
 							data-aos-delay="1000"
 							class="card h-1/2 basis-1/4 md:h-full"
-							style="background-image: url('./images/carousel2.jpg')"
+							style="background-image: url('./src/images/carousel2.jpg')"
 						>
 							<a href="#" class="cardInnerDesktop">
 								<h1 class="text-center text-3xl">456 Dream St.</h1>
@@ -252,7 +252,7 @@
 							data-aos-duration="2000"
 							data-aos-delay="1000"
 							class="card h-1/2 basis-1/4 md:h-full"
-							style="background-image: url('./images/carousel3.jpg')"
+							style="background-image: url('./src/images/carousel3.jpg')"
 						>
 							<a href="#" class="cardInnerDesktop">
 								<h1 class="text-center text-3xl">888 Famous Dr.</h1>
@@ -267,7 +267,7 @@
 							data-aos-duration="2500"
 							data-aos-delay="1000"
 							class="card h-1/2 basis-1/4 md:h-full"
-							style="background-image: url('./images/carousel4.jpg')"
+							style="background-image: url('./src/images/carousel4.jpg')"
 						>
 							<a href="#" class="cardInnerDesktop">
 								<h1 class="text-center text-3xl">700 Sand St.</h1>
@@ -278,7 +278,7 @@
 					</div>
 				</div>
 				<a
-					href="properties.html"
+					href="./src/properties.html"
 					id="gallery-button"
 					class="mx-auto flex w-4/5 justify-center bg-coffee-brown px-8 py-2 text-center text-2xl text-white shadow-md transition-all duration-700 hover:bg-wood-brown hover:text-white md:w-1/4 md:text-3xl"
 					>PROPERTIES</a
@@ -319,12 +319,12 @@
 					>
 						<img
 							class="h-[225px] w-[150px] md:h-[375px] md:w-[250px]"
-							src="./images/albert-dera-ILip77SbmOE-unsplash.jpg"
+							src="./src/images/albert-dera-ILip77SbmOE-unsplash.jpg"
 							alt="Lorem Partner and Estate Agent, John Doe"
 						/>
 						<img
 							class="h-[225px] w-[150px] md:h-[375px] md:w-[250px]"
-							src="./images/itay-verchik-YmQ8TrsieE4-unsplash.jpg"
+							src="./src/images/itay-verchik-YmQ8TrsieE4-unsplash.jpg"
 							alt="Lorem Partner and Estate Agent, David Doe"
 						/>
 					</div>
@@ -335,7 +335,7 @@
 				<div
 					class="mt-12 flex h-96 w-screen items-center justify-center space-x-8 bg-gray-700 bg-cover bg-fixed bg-center bg-no-repeat text-white bg-blend-overlay md:px-40"
 					style="
-						background-image: url('./images/scott-webb-hDyO6rr3kqk-unsplash\ \(1\).jpg');
+						background-image: url('./src/images/scott-webb-hDyO6rr3kqk-unsplash\ \(1\).jpg');
 					"
 				>
 					<section class="text-center lg:block">
@@ -448,7 +448,7 @@
 						>TERMS AND CONDITIONS</a
 					>
 					<a
-						href="contact.html"
+						href="./src/contact.html"
 						class="footPages mb-2 text-center"
 						onclick="window.location.href='contact.html'"
 						>CONTACT</a
