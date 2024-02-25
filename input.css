@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navBtn {
+  @apply my-2;
+  @apply mx-4;
+  @apply hover:text-coffee-brown;
+  @apply transition-all;
+  @apply duration-700;
+}
+
+.footBtn {
+  @apply w-6;
+  @apply text-coffee-brown;
+  @apply hover:text-wood-brown;
+}
+
+.footPages {
+  @apply hover:text-coffee-brown;
+  @apply text-wood-brown;
+  @apply transition-all;
+  @apply duration-700;
+  @apply w-full;
+}
+
+.card {
+  @apply flex;
+  @apply bg-center;
+  @apply bg-cover;
+  @apply bg-no-repeat;
+  @apply hover:cursor-pointer;
+  @apply hover:bg-blend-overlay;
+  @apply transition-all;
+  @apply duration-700;
+  @apply bg-gray-700;
+}
+
+.cardInnerDesktop {
+  @apply flex;
+  @apply flex-col;
+  @apply align-middle;
+  @apply justify-center;
+  @apply mx-auto;
+  @apply py-48;
+  @apply w-full;
+  @apply h-full;
+  @apply transition-all;
+  @apply duration-500;
+  @apply text-transparent;
+  @apply hover:text-white;
+}
+
+.cardInner {
+  @apply flex;
+  @apply flex-col;
+  @apply align-middle;
+  @apply justify-center;
+  @apply mx-auto;
+  @apply py-48;
+  @apply w-full;
+  @apply h-full;
+  @apply text-white;
+}
+
+/*Hamburger Menu */
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+
+.open {
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
